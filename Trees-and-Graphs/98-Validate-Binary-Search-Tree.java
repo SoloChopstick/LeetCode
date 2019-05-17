@@ -3,6 +3,7 @@ Solution 1: Recursion
 Time: O(n)
 Space: O(n)
 */
+
 class Solution {
     public boolean isValidBST(TreeNode root) {
         return helper (root, null, null);
